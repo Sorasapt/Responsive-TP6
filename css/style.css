@@ -1,0 +1,1065 @@
+.contenedor
+{
+	max-width: 900px;
+	margin: auto;
+}
+.contenedor2
+{
+	max-width: 900px;
+	margin: auto;
+	text-align: center;
+	padding: 100px 0px;
+}
+
+/*----------navegador----------*/
+nav a img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+nav ul
+{
+	float: right;
+	margin-top: 20px;
+}
+
+nav ul li
+{
+	display: inline-block;
+
+}
+nav ul li a
+{
+	font-size: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+	padding: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	letter-spacing: 4px;
+}
+/*----------header----------*/
+
+header 
+{
+ 	background-image: url("../assets/indexbanner-bg3.jpg");
+ 	background-size: 100%;
+ 	background-repeat: no-repeat;
+ 
+
+}
+header h1
+{
+	font-size: 40px;
+	color: white;
+	line-height: 70px;
+	text-transform: unset;
+	letter-spacing: -1px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	margin-top: 60px;
+	text-align: left;
+}
+
+header  h3
+{
+	font-size: 10px;
+	color: white;
+	max-width: 500px;
+	font-family: 'Raleway', sans-serif;
+	word-spacing: 3px;
+	max-width: 40%;
+	margin-top: 30px;
+
+}
+/*----------search----------*/
+form
+{
+	padding-top: 60px;
+	position: relative;
+	text-align: center;
+}
+
+form .search
+{
+	width: 500px;	
+	height: 40px;
+	display: inline-block;
+}
+
+form .boton
+{
+	width: 100px;
+	height: 48px;
+	background-color: rgb(0,173,242);
+	color: white;
+	text-transform:uppercase;
+	font-family: 'Open Sans', sans-serif;
+		border: none;
+}
+/*----------lista de colores en el medio----------*/
+
+section ul li
+{
+	max-width: 19%;
+	display: inline-block;
+	padding: 50px 25px;
+
+}
+section ul li article img.iconos
+{
+	width: 70px;
+	height: 70px;
+	margin-left: 40px;
+}
+section ul li article img.iconos:hover
+{
+	transition: 1.3s;
+	transform: scale(1.25);
+
+}
+section ul li article h4
+{
+	font-size: 15px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+section ul li article p
+{
+	font-size: 10px;
+	text-align: center;
+	text-transform: unset;
+	color: #C0C0C0;
+	margin-top: 15px;
+	word-spacing: 3px;
+	font-family: 'Open Sans', sans-serif;
+}
+.puntitos
+{
+	text-align: center;
+}
+
+/*----------titulo antes celular----------*/
+
+.titulo h2
+{
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 15px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+.titulo h5
+{
+	font-size: 12px;
+	text-align: center;
+	margin-top: 20px;
+	word-spacing: 5px;
+	font-family: 'Raleway', sans-serif;
+	color: #C0C0C0;
+}
+
+/*----------listas con telefono----------*/
+
+div.listas
+{
+	text-align: center;
+}
+
+div.listas  ul.izquierda 
+{
+	max-width: 30%;
+	display:inline-block;
+	padding: 40px;
+}
+div.listas  ul.izquierda li
+{
+	padding-top: 35px;
+}
+div.listas  ul.izquierda li article a img
+{
+	float: right;
+	padding-left: 15px;
+}
+div.listas  ul.izquierda li article div.listaizquierda h3
+{
+	font-size: 12px;
+	text-align: right;
+	text-transform: uppercase;
+	padding: 20px 15px  0 15px;
+	color: black;
+	max-width: 100%
+	font-family: 'Open Sans', sans-serif;
+
+}
+div.listas  ul.izquierda li article div.listaizquierda h6
+{
+	font-size: 10px;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: unset;
+	padding: 20px 15px 0 60px;
+	color: #C0C0C0;
+	max-width: 100%;
+	text-align: right;
+}
+
+ div.imageniphone 
+{
+	max-width: 30%;
+	display:inline-block;
+
+}
+div.imageniphone img
+{
+	width: 230px;
+	height: 380px;
+	position: relative;
+	top: 85px;
+	text-align: center;
+	
+}
+div.listas ul.derecha 
+{
+	max-width: 30%;
+	display:inline-block;
+	padding: 30px;
+}
+div.listas ul.derecha li
+{
+	padding-top: 35px;
+}
+div.listas  ul.derecha li article a img
+{
+	float: left;
+	padding-right: 15px;
+}
+div.listas ul.derecha li article div.listaderecha h3
+{
+	font-size: 12px;
+	text-align: left;
+	text-transform: uppercase;
+	padding: 20px 15px 0 15px;
+	color: black;
+	max-width: 100%;
+	font-family: 'Open Sans', sans-serif;
+
+}
+div.listas ul.derecha li article div.listaderecha h6
+{
+	font-size: 10px;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: unset;
+	padding: 20px 15px 0 60px;
+	color: #C0C0C0;
+	max-width: 100%;
+	text-align: left;
+
+}
+/*----------pricing tables----------*/
+
+.precios .productos
+{
+	padding: 100px 0px;
+}
+.precios .productos h2
+{
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 15px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+.precios .productos h5
+{
+	font-size: 12px;
+	text-align: center;
+	margin-top: 20px;
+	word-spacing: 5px;
+	font-family: 'Raleway', sans-serif;
+	color: #C0C0C0;
+}
+.precios section.productos
+{
+	background-image: url("../assets/pricing-bg.jpg");
+	background-size: 100%;
+ 	background-repeat: no-repeat;
+
+}
+
+/*----------pricing tables lista----------*/
+
+.contenedor2 section.productos ul
+{
+	position: relative;
+	top: -150px;
+}
+.contenedor2 section.productos ul li
+{
+	background-color: white;
+	border: 1px solid #ddd;
+	box-shadow: 0px 0px 3px rgb(0,0,0,0.5);
+	margin: 20px 10px 20px 10px;
+	width: 15%;
+}
+.contenedor2 section.productos ul li article h2
+{
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding: 5px 0px;
+}
+.contenedor2 section.productos ul li article h6
+{
+	text-align: center;
+	font-size: 8px;
+	font-family: 'Raleway', sans-serif;
+	padding: 5px 0px;
+	color: #C0C0C0;
+}
+
+
+ .contenedor2 section.productos ul li article h3
+
+{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding: 5px 0px;
+}
+.contenedor2 section.productos ul li article h4
+{
+	font-size: 10px;
+  
+    text-transform: unset;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+}
+.contenedor2 section.productos ul li article h4 span.celeste
+
+{
+	text-align: right;
+	color: rgb(0,176,244);
+}
+.contenedor2 section.productos ul li article h4 span.amarillo
+
+{
+	text-align: right;
+	color: yellow;
+}
+.contenedor2 section.productos ul li article h4 span.naranja
+
+{
+	text-align: right;
+	color: orange;
+}
+.contenedor2 section.productos ul li article h4 span.rojo
+
+{
+	text-align: right;
+	color: rgb(255,86,48);
+}
+ .contenedor2 section.productos ul li article input
+ {
+ 	text-align: center;
+ 	color: white;
+ 	background-color: rgb(0,176,244);
+ 	font-family: "Raleway", sans-serif;
+ 	font-size: 10px;
+ 	width: 100%;
+ 	height: 30px;
+ 	text-transform: uppercase;;
+	margin-top: 20px;
+	font-style: bold;
+	border-radius: 5px;
+	border:none;
+ }
+
+ /*----------hosting----------*/
+
+ .hosting
+{
+	background-color: rgb(20,46,63);
+	height: 120px;
+	width: 100%;
+}
+.hosting h3
+{
+	text-transform: unset;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	padding-top: 55px;
+
+}
+/*----------hosting----------*/
+div.hosting
+{
+	background-color: rgb(20,46,63);
+	height: 120px;
+	margin-top: -150px;
+}
+div.hosting h3
+{
+	text-transform: unset;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	padding-top: 55px;
+
+}
+/*----------footer----------*/
+div.fin
+{
+	background-color: rgb(9,23,34);
+	height:60px;
+}
+
+div.fin h6
+{
+	font-size: 12px;
+	font-family: 'Raleway', sans-serif;
+	text-transform: unset;
+	text-align: left;
+	color: white;
+	text-decoration: none;
+	padding-top: 20px;
+}
+footer ul.lista
+{
+	float: right;
+}
+
+footer ul.lista li
+{
+	display: inline-block;
+	padding-left: 20px;
+
+}
+footer ul.lista li a
+{
+	font-size: 8px;
+	text-decoration: none;
+	text-transform: unset;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	
+}
+
+
+/*----------contacto----------*/
+
+.contenedor
+{
+	max-width: 900px;
+	margin: auto;
+	position: relative;
+}
+.contenedor3
+{
+	max-width: 750px;
+	margin: auto;
+	position: relative;
+}
+/*----------contacto nav----------*/
+nav a img {
+	margin-top: 20px;
+}
+nav ul
+{
+	float: right;
+	margin-top: 20px;
+}
+
+nav ul li
+{
+	display: inline-block;
+
+}
+nav ul li a
+{
+	font-size: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+	padding: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	letter-spacing: 4px;
+}
+/*----------contacto header----------*/
+header.contact
+{
+ 	background-image: url("../assets/indexbanner-bg2.jpg");
+ 	background-size: 100%;
+ 	background-repeat: no-repeat;
+ 	padding: 100px 0px;
+
+}
+header.contact  h1
+{
+	font-size: 30px;
+	color: white;
+	line-height: 70px;
+	text-transform: unset;
+	letter-spacing: -1px;
+	margin-top: 100px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	text-align: center;
+
+}
+header.contact h3
+{
+	font-size: 10px;
+	color: white;
+	max-width: 55%;
+	margin-top: 10px;
+	font-family: 'Raleway', sans-serif;
+	word-spacing: 3px;
+	text-align: center;
+	margin-left: 200px;
+	line-height: 30px;
+
+}
+/*----------contacto titulo----------*/
+div.contenedor section
+{
+	margin-top: 100px;
+	position: relative;
+
+}
+div.contenedor section h2
+{
+	font-size: 30px;
+	color: black;
+	line-height: 70px;
+	text-transform: unset;
+	letter-spacing: -1px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	text-align: center;
+
+}
+div.contenedor section h4
+{
+	font-size: 10px;
+	color: black;
+	max-width: 500px;
+	margin-top: 10px;
+	font-family: 'Raleway', sans-serif;
+	word-spacing: 3px;
+	max-width: 100%;
+	text-align: center;
+
+}
+/*----------contacto container----------*/
+ul li
+{
+	overflow: all;
+	display: inline-block;
+}
+.container {
+ clear:both;
+ float:left;
+ overflow:hidden;
+ width:100%;
+ margin-top: -100px;
+}
+
+#formulario {
+ float:left;
+ left:50%;
+ list-style-type:none;
+ margin-top: 50px;
+ padding:0;
+ position:relative;
+}
+
+#formulario li {
+ float:left;
+ position:relative;
+ right:50%;
+}
+
+#formulario li input
+{
+margin-top: 7px;
+width: 400px;
+height: 40px
+}
+#formulario li textarea
+{
+margin-top: 20px;
+width: 400px;
+height: 180px
+}
+input.push
+{
+	width: 150px;
+	height: 48px;
+	background-color: rgb(0,173,242);
+	color: white;
+	text-transform:uppercase;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 8px;
+	margin: 30px 0px 30px 0px;
+}
+/*----------contacto hosting----------*/
+div.hosting2
+{
+	background-color: rgb(20,46,63);
+	height: 120px;
+	margin-top: 120px;
+}
+div.hosting2 h3
+{
+	text-transform: unset;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	padding-top: 55px;
+
+}
+/*----------contacto footer----------*/
+div.fin
+{
+	background-color: rgb(9,23,34);
+	height:60px;
+}
+
+div.fin h6
+{
+	font-size: 12px;
+	font-family: 'Raleway', sans-serif;
+	text-transform: unset;
+	text-align: left;
+	color: white;
+	text-decoration: none;
+	padding-top: 20px;
+}
+footer ul.lista
+{
+	float: right;
+}
+
+footer ul.lista li
+{
+	display: inline-block;
+	padding-left: 20px;
+
+}
+footer ul.lista li a
+{
+	font-size: 8px;
+	text-decoration: none;
+	text-transform: unset;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	
+}
+
+/*----------media----------*/
+
+@media screen and (max-width: 778px)
+{
+	.contenedor
+{
+	max-width: 95%;
+	margin: auto;
+}
+.contenedor2
+{
+	max-width: 95%;
+	margin: auto;
+	text-align: center;
+	padding: 50px 0px;
+}
+
+nav a img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 15px;
+	width: 15%;
+}
+ header
+ {
+ 	height: 320px;
+ }
+header h1
+{
+	font-size: 25px;
+	color: white;
+	line-height: 70px;
+	text-transform: unset;
+	letter-spacing: 0px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	margin-top: 20px;
+	text-align: left;
+}
+
+header  h3
+{
+	font-size: 10px;
+	color: white;
+	max-width: 480px;
+	margin-top: 0px;
+	word-spacing: 0px;
+	max-width: 40%;
+	line-height: 15px;
+}
+form
+{
+	padding-top: 2%;
+	position: relative;
+	text-align: center;
+}
+
+section ul
+{
+padding-top: -20px;
+}
+section ul li
+{
+	max-width: 45%;
+	padding: 10px 15px;
+
+}
+section ul li article a img.iconos
+{
+	width: 70px;
+	height: 70px;
+	margin-left: 110px;
+
+}
+section ul li article h4
+{
+	font-size: 12px;
+	font-style: bold;
+}
+section ul li article p
+{
+	color: black;
+	width: 90%;
+}
+
+div.listas
+{
+	text-align: center;
+	width: 100%;
+}
+
+div.listas  ul.izquierda 
+{
+	max-width: 33%;
+	display:inline-block;
+	padding: 20px 0px;
+}
+
+ div.imageniphone 
+{
+	max-width: 33%;
+	display:inline-block;
+
+}
+div.imageniphone img
+{
+	width: 200px;
+	height: 350px;
+	position: relative;
+	top: 20px;
+	text-align: center;
+	padding: 0px 15px;
+	
+}
+div.listas ul.derecha 
+{
+	max-width: 33%;
+	display:inline-block;
+	padding: 20px 0px;
+}
+
+.puntitos
+{
+	display: none;
+}
+
+.precios .productos h2
+{
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+
+.contenedor2 section.productos ul li
+{
+	width: 40%;
+}
+
+.contenedor2 section.productos ul li article h4
+{
+    text-align: center;
+}
+
+.hosting
+{
+	background-color: rgb(20,46,63);
+	height: 120px;
+	width: 100%;
+}
+.hosting h3
+{
+	text-transform: unset;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	padding-top: 55px;
+	max-width: 100%;
+}
+
+div.fin h6
+{
+	text-align: center;
+}
+footer ul.lista
+{
+	float: none;
+	text-align: center;
+}
+
+footer ul.lista li
+{
+	display: inline-block;
+	padding: 0px 20px;
+
+}
+
+}
+
+
+@media screen and (max-width: 480px)
+{
+.contenedor
+{
+	max-width: 90%;
+}
+.contenedor2
+{
+	max-width: 90%;
+}
+
+nav a img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 15px;
+	width: 15%;
+}
+ header
+ {
+ 	height: 200px;
+ 	background-image: none;
+ }
+header h1
+{
+	display: none;
+}
+
+header  h3
+{
+	display: none;
+}
+
+form
+{
+	padding-top: -150px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+form .search
+{
+	width: 70%;
+	height: 40px;
+	display: inline-block;
+	border: none;
+}
+
+form .boton
+{
+	width: 20%;
+	height: 48px;
+	border: none;
+}
+section ul
+{
+padding-top: 0px;
+}
+section ul li
+{
+	max-width: 100%;
+	padding: 10px 10px;
+
+}
+section ul li article a img.iconos
+{
+	width: 70px;
+	height: 70px;
+	margin-left: 40px;
+	text-align: center;
+
+}
+section ul li article h4
+{
+	font-size: 12px;
+	font-style: bold;
+	width: 100%;
+}
+section ul li article p
+{
+	color: black;
+	width: 100%;
+}
+.titulo h2
+{
+	font-size: 25px;
+}
+.titulo h5
+{
+	font-size: 8px;
+}
+
+div.listas  ul.izquierda 
+{
+	max-width: 80%;
+	display:inline-block;
+	padding: 20px 0px;
+}
+
+ div.imageniphone 
+{
+	max-width: 100%;
+	display:inline-block;
+
+}
+div.imageniphone img
+{
+	width: 200px;
+	height: 350px;
+	position: relative;
+	top: 20px;
+	text-align: center;
+	padding: 0px 15px;
+	
+}
+div.listas ul.derecha 
+{
+	max-width: 80%;
+	display:inline-block;
+	padding: 20px 0px;
+}
+
+div.listas ul.derecha li
+{
+	padding-top: 35px;
+}
+div.listas  ul.derecha li article a img
+{
+	float: left;
+	padding-right: 15px;
+}
+div.listas ul.derecha li article div.listaderecha h3
+{
+	font-size: 12px;
+	text-align: left;
+	text-transform: uppercase;
+	padding: 20px 15px 0 15px;
+	color: black;
+	max-width: 100%;
+	font-family: 'Open Sans', sans-serif;
+
+}
+div.listas ul.derecha li article div.listaderecha h6
+{
+	font-size: 10px;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: unset;
+	padding: 20px 15px 0 60px;
+	color: #C0C0C0;
+	max-width: 100%;
+	text-align: left;
+
+}
+div.listas ul.izquierda
+{
+	max-width: 80%;
+	display:inline-block;
+	padding: 20px 0px;
+}
+
+div.listas ul.izquierda li
+{
+	padding-top: 35px;
+}
+div.listas  ul.izquierda li article a img
+{
+	float: left;
+	padding-right: 15px;
+}
+div.listas ul.izquierda li article div.listaizquierda h3
+{
+	font-size: 12px;
+	text-align: left;
+	text-transform: uppercase;
+	padding: 20px 15px 0 15px;
+	color: black;
+	max-width: 100%;
+	font-family: 'Open Sans', sans-serif;
+
+}
+div.listas ul.izquierda li article div.listaizquierda h6
+{
+	font-size: 10px;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: unset;
+	padding: 20px 15px 0 60px;
+	color: #C0C0C0;
+	max-width: 100%;
+	text-align: left;
+
+}
+.precios .productos h2 {
+    font-size: 20px;
+    margin-top: -80px;
+}
+..precios .productos h5 {
+    font-size: 5px;
+}
+   .contenedor2 section.productos ul li {
+    width: 100%;
+    padding: 0px;
+}
+div.hosting h3 {
+    text-transform: unset;
+    text-align: center;
+    font-size: 14px;
+    }
+
+}
